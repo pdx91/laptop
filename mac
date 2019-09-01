@@ -1,0 +1,43 @@
+#!/bin/sh
+
+# # Inspired by https://github.com/thoughtbot/laptop
+#
+# # Install Homebrew
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+#
+# # Brew
+brew update --force
+
+brew bundle --file=-<<EOF
+tap "homebrew/services"
+tap "universal-ctags/universal-ctags"
+tap "caskroom/cask"
+tap "heroku/brew"
+
+brew "git"
+brew "openssl"
+brew "reattach-to-user-namespace"
+brew "the_silver_searcher"
+brew "tmux"
+brew "vim"
+brew "zsh"
+brew "heroku"
+brew "postgresql"
+brew "postgresql"
+
+# Casks
+cask "google-chrome"
+cask "iterm2"
+cask "figma"
+cask "docker"
+cask "github"
+cask "insomnia"
+cask "1password"
+cask "alfred"
+EOF
+
+# Ruby
+curl -sSL https://get.rvm.io | bash -s stable
+rvm install 2.6.4
+
