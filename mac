@@ -24,7 +24,9 @@ brew "vim"
 brew "zsh"
 brew "heroku"
 brew "postgresql"
-brew "postgresql"
+brew "redis"
+brew "fzf"
+brew "yarn"
 
 # Casks
 cask "google-chrome"
@@ -35,6 +37,8 @@ cask "github"
 cask "insomnia"
 cask "1password"
 cask "alfred"
+cask "dropbox"
+cask "notion"
 EOF
 
 # Ruby
