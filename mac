@@ -42,6 +42,7 @@ cask "alfred"
 cask "dropbox"
 cask "notion"
 cask "whatsapp"
+cask "graphiql"
 EOF
 
 # Mas-es
