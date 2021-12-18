@@ -21,7 +21,6 @@ brew "the_silver_searcher"
 brew "tmux"
 brew "vim"
 brew "zsh"
-brew "heroku"
 brew "postgresql"
 brew "redis"
 brew "fzf"
@@ -33,22 +32,11 @@ brew "tree"
 # Casks
 cask "google-chrome"
 cask "iterm2"
-cask "figma"
-cask "docker"
-cask "github"
-cask "insomnia"
 cask "1password"
-cask "alfred"
 cask "dropbox"
-cask "notion"
-cask "whatsapp"
-cask "graphiql"
 EOF
 
 # Mas-es
+
+# Amphetemine
 mas install 937984704
-
-# Ruby
-curl -sSL https://get.rvm.io | bash -s stable
-rvm install 2.6.4
-
