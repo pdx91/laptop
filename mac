@@ -11,9 +11,7 @@ brew update --force
 
 brew bundle --file=-<<EOF
 tap "homebrew/services"
-tap "universal-ctags/universal-ctags"
 tap "caskroom/cask"
-tap "heroku/brew"
 
 brew "git"
 brew "openssl"
