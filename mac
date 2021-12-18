@@ -11,7 +11,7 @@ brew update --force
 
 brew bundle --file=-<<EOF
 tap "homebrew/services"
-tap "caskroom/cask"
+tap "homebrew/cask"
 
 brew "git"
 brew "openssl"
