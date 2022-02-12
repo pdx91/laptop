@@ -35,6 +35,7 @@ brew "tree"
 brew "gh"
 brew "asdf"
 brew "rbenv"
+brew "wget"
 
 # Casks
 cask "google-chrome"
