@@ -56,3 +56,16 @@ EOF
 
 # Amphetemine
 mas install 937984704
+
+#########
+# SETUP #
+#########
+
+# Ruby
+brew upgrade rbenv ruby-build &&
+  rbenv init
+
+curl -fsSL https://github.com/rbenv/rbenv-installer/raw/main/bin/rbenv-doctor | bash
+
+rbenv install 2.7.5
+
