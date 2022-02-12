@@ -32,6 +32,14 @@ cask "google-chrome"
 cask "iterm2"
 cask "1password"
 cask "dropbox"
+cask "raycast"
+cask "todoist"
+cask "rectangle"
+cask "cleanmymac"
+cask "cron"
+cask "rubymine"
+cask "firefox"
+cask "microsoft-edge"
 EOF
 
 # Mas-es
