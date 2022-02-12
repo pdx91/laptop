@@ -1,5 +1,5 @@
 # Run it
 
 ```
-wget -o https://raw.githubusercontent.com/pradyumna2905/laptop/master/mac | bash
+curl -fsSL https://raw.githubusercontent.com/pradyumna2905/laptop/master/mac | bash
 ```
