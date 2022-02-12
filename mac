@@ -50,6 +50,7 @@ cask "cron"
 cask "rubymine"
 cask "firefox"
 cask "microsoft-edge"
+cask "signal"
 EOF
 
 # Mas-es
