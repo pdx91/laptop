@@ -18,6 +18,7 @@ brew update --force
 brew bundle --file=-<<EOF
 tap "homebrew/services"
 tap "homebrew/cask"
+tap "homebrew/cask-fonts"
 
 brew "git"
 brew "openssl"
@@ -51,6 +52,7 @@ cask "rubymine"
 cask "firefox"
 cask "microsoft-edge"
 cask "signal"
+cask "font-cascadia-code"
 EOF
 
 # Mas-es
