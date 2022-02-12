@@ -53,6 +53,7 @@ cask "firefox"
 cask "microsoft-edge"
 cask "signal"
 cask "font-cascadia-code"
+cask "slack"
 EOF
 
 # Mas-es
