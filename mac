@@ -46,6 +46,7 @@ brew "zsh"
 # Casks
 cask "1password"
 cask "cleanmymac"
+cask "cleanshot"
 cask "cron"
 cask "dropbox"
 cask "firefox"
